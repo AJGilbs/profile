@@ -1,11 +1,11 @@
 body {
-background-color: rgb(230,230,230);
+/*background-color: rgb(230,230,230);*/
 font-family: 'Molengo', sans-serif;
 font-size: 15px;
-color: grey;
+color: rgb(150,150,150);
 }
 h1 {
-color: #DD5555;
+color: d37e54;
 font-family: 'Molengo', sans-serif;
 font-weight: bold;
 font-size: 30px;
@@ -15,15 +15,19 @@ color: rgb(80,80,80);
 text-decoration: none;
 }
 a:hover {
-color: #C61414;
+color: #80bba8;
 }
 h2 {
-color: rgb(80,80,80);
+color: rgb(150,150,150);
 font-size: 20px;
 }
 h3 {
 color: rgb(80,80,80);
-font-size: 15px;
+font-size: 16px;
+font-weight: 300;
+}
+#content {
+margin-left: 120;
 }
 #img-profile {
 width: 100px;
@@ -35,13 +39,13 @@ border-radius: 50%;
 }
 .btn-red {
 color: white;
-background-color: #DD5555;
+background-color: 80BBA8;
 padding: 6px;
 border-radius: 4px;
 }
 .btn-red:hover {
-  background-color: #C61414;
-  color: white;
+background-color: #48826e;
+color: white;
 }
 .list-inline {
 padding-left: 0px;
@@ -51,7 +55,7 @@ display: inline-block;
 padding: 20px;
 }
 .card {
-background: white;
+background: rgba(255,255,255, 0.8);
 padding: 20px;
 margin-bottom: 20px;
 border-radius: 4px;
@@ -81,4 +85,70 @@ width: 500px;
 .container {
 width: 300px;
 }
+}
+#sidebar {
+background-color: #384047;
+position: fixed;
+left: 0px;
+top: 0px;
+bottom: 0px;
+width: 120px;
+text-align: center;
+}
+#sidebar ul {
+list-style: none;
+padding-left: 0px;
+}
+.container-fluid {
+width: 90%;
+margin: 30px auto;
+}
+.fa-info-circle {
+font-size: 30px;
+padding-bottom: 30px;
+}
+.fa-info-circle:hover {
+color: rgb(230,230,230);
+font-size: 30px;
+padding-bottom: 30px;
+}
+.fa-file-video-o {
+font-size: 30px;
+padding-bottom: 30px;
+}
+.fa-file-video-o:hover {
+color: rgb(230,230,230);
+font-size: 30px;
+padding-bottom: 30px;
+}
+.fa-life-ring {
+font-size: 30px;
+padding-bottom: 30px;
+}
+.fa-life-ring:hover {
+color: rgb(230,230,230);
+font-size: 30px;
+padding-bottom: 30px;
+}
+
+#movies img {
+  width: 80px;
+}
+
+#movies {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+.movie-img {
+  width: 100px;
+  height: auto;
+}
+
+.wrapper {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  position: fixed;
+  overflow-x: scroll;
+  height: 100vh;
 }
